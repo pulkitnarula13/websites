@@ -1,3 +1,3 @@
 # websites
 
-Websites sode on which I have worked
+Websites code on which I have worked
