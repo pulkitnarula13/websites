@@ -320,8 +320,8 @@ body.opened .kura_tm_topbar{
 	padding: 20px 37px 20px 50px;
 }
 .kura_tm_topbar .logo img{
-	max-width: 70px;
-	max-height: 70px;
+	max-width: 150px;
+	/* max-height: 70px; */
 }
 .kura_tm_topbar .menu{
 	display: flex;
@@ -419,8 +419,8 @@ body.opened .kura_tm_topbar{
 	justify-content: space-between;
 }
 .kura_tm_mobile_menu .mobile_in .logo img{
-	max-width: 80px;
-	max-height: 50px;
+	max-width: 150px;
+	/* max-height: 50px; */
 }
 .kura_tm_mobile_menu .trigger{
 	line-height: 0;
