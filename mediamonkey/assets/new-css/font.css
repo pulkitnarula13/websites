@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Rotunda';
+    src: local('Rotunda Black'), local('Rotunda-Black'),
+        url('./Rotunda/Rotunda-Black.woff2') format('woff2'),
+        url('./Rotunda/Rotunda-Black.woff') format('woff'),
+        url('./Rotunda/Rotunda-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'NoirPro';
+    src: url('./NoirPro/NoirPro-Regular.otf') format('opentype');
+}
+
+@import url('./Magdelin-new/font-magdelin-req.css');
+
+@import url('./Magdelin/font-magdelin.css');

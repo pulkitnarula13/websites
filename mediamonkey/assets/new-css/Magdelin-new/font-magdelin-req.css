@@ -1,0 +1,50 @@
+
+    @font-face {
+        font-family: 'MagdelinAlt-Regular';
+        font-style: normal;
+        font-weight: normal;
+        src: local('MagdelinAlt-Regular'), url('MagdelinAlt-Regular.otf') format('otf');
+    }
+    
+
+    @font-face {
+        font-family: 'MagdelinAlt-RegularItalic';
+        font-style: normal;
+        font-weight: normal;
+        src: local('MagdelinAlt-RegularItalic'), url('MagdelinAlt-RegularItalic.otf') format('otf');
+    }
+
+    @font-face {
+        font-family: 'Magdelin-Regular';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Magdelin-Regular'), url('Magdelin-Regular.otf') format('otf');
+    }
+
+    @font-face {
+        font-family: 'Magdelin-Bold';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Magdelin-Bold'), url('Magdelin-Bold.otf') format('otf');
+    }
+    
+    @font-face {
+        font-family: 'Magdelin-Italic';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Magdelin-Italic'), url('Magdelin-Italic.otf') format('otf');
+    }
+
+    @font-face {
+        font-family: 'Magdelin-Light';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Magdelin-Light'), url('Magdelin-Light.otf') format('otf');
+    }
+
+    @font-face {
+        font-family: 'Magdelin-LightItalic';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Magdelin-LightItalic'), url('Magdelin-LightItalic.otf') format('otf');
+    }

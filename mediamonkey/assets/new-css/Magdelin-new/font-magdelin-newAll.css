@@ -1,0 +1,319 @@
+
+    @font-face {
+    font-family: 'MagdelinAlt-Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('MagdelinAlt-Regular'), url('MagdelinAlt-Regular.otf') format('otf');
+    }
+    
+
+    @font-face {
+    font-family: 'MagdelinAlt Regular Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('MagdelinAlt Regular Italic'), url('MagdelinAlt Regular Italic.otf') format('otf');
+    }
+    
+
+    @font-face {
+    font-family: 'MagdelinAlt Thin';
+    font-style: normal;
+    font-weight: normal;
+    src: local('MagdelinAlt Thin'), url('MagdelinAlt Thin.otf') format('otf');
+    }
+    
+
+    @font-face {
+    font-family: 'MagdelinAlt Thin Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('MagdelinAlt Thin Italic'), url('MagdelinAlt Thin Italic.otf') format('otf');
+    }
+    
+
+    @font-face {
+    font-family: 'MagdelinAlt ExtraLight';
+    font-style: normal;
+    font-weight: normal;
+    src: local('MagdelinAlt ExtraLight'), url('MagdelinAlt ExtraLight.otf') format('otf');
+    }
+    
+
+    @font-face {
+    font-family: 'MagdelinAlt ExtraLight Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('MagdelinAlt ExtraLight Italic'), url('MagdelinAlt ExtraLight Italic.otf') format('otf');
+    }
+    
+
+    @font-face {
+    font-family: 'MagdelinAlt Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('MagdelinAlt Light'), url('MagdelinAlt Light.otf') format('otf');
+    }
+    
+
+    @font-face {
+    font-family: 'MagdelinAlt Light Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('MagdelinAlt Light Italic'), url('MagdelinAlt Light Italic.otf') format('otf');
+    }
+    
+
+    @font-face {
+    font-family: 'MagdelinAlt Text';
+    font-style: normal;
+    font-weight: normal;
+    src: local('MagdelinAlt Text'), url('MagdelinAlt Text.otf') format('otf');
+    }
+    
+
+    @font-face {
+    font-family: 'MagdelinAlt Text Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('MagdelinAlt Text Italic'), url('MagdelinAlt Text Italic.otf') format('otf');
+    }
+    
+
+    @font-face {
+    font-family: 'MagdelinAlt Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('MagdelinAlt Medium'), url('MagdelinAlt Medium.otf') format('otf');
+    }
+    
+
+    @font-face {
+    font-family: 'MagdelinAlt Medium Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('MagdelinAlt Medium Italic'), url('MagdelinAlt Medium Italic.otf') format('otf');
+    }
+    
+
+    @font-face {
+    font-family: 'MagdelinAlt SemiBold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('MagdelinAlt SemiBold'), url('MagdelinAlt SemiBold.otf') format('otf');
+    }
+    
+
+    @font-face {
+    font-family: 'MagdelinAlt SemiBold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('MagdelinAlt SemiBold Italic'), url('MagdelinAlt SemiBold Italic.otf') format('otf');
+    }
+    
+
+    @font-face {
+    font-family: 'MagdelinAlt Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('MagdelinAlt Bold'), url('MagdelinAlt Bold.otf') format('otf');
+    }
+    
+
+    @font-face {
+    font-family: 'MagdelinAlt Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('MagdelinAlt Bold Italic'), url('MagdelinAlt Bold Italic.otf') format('otf');
+    }
+    
+
+    @font-face {
+    font-family: 'MagdelinAlt ExtraBold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('MagdelinAlt ExtraBold'), url('MagdelinAlt ExtraBold.otf') format('otf');
+    }
+    
+
+    @font-face {
+    font-family: 'MagdelinAlt ExtraBold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('MagdelinAlt ExtraBold Italic'), url('MagdelinAlt ExtraBold Italic.otf') format('otf');
+    }
+    
+
+    @font-face {
+    font-family: 'MagdelinAlt Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('MagdelinAlt Black'), url('MagdelinAlt Black.otf') format('otf');
+    }
+    
+
+    @font-face {
+    font-family: 'MagdelinAlt Black Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('MagdelinAlt Black Italic'), url('MagdelinAlt Black Italic.otf') format('otf');
+    }
+    
+
+    @font-face {
+    font-family: 'Magdelin-Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Magdelin-Regular'), url('Magdelin-Regular.otf') format('otf');
+    }
+    
+
+    @font-face {
+    font-family: 'Magdelin-Regular Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Magdelin-Regular Italic'), url('Magdelin-Regular Italic.otf') format('otf');
+    }
+    
+
+    @font-face {
+    font-family: 'Magdelin-Thin';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Magdelin-Thin'), url('Magdelin-Thin.otf') format('otf');
+    }
+    
+
+    @font-face {
+    font-family: 'Magdelin-Thin Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Magdelin-Thin Italic'), url('Magdelin-Thin Italic.otf') format('otf');
+    }
+    
+
+    @font-face {
+    font-family: 'Magdelin-ExtraLight';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Magdelin-ExtraLight'), url('Magdelin-ExtraLight.otf') format('otf');
+    }
+    
+
+    @font-face {
+    font-family: 'Magdelin-ExtraLight Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Magdelin-ExtraLight Italic'), url('Magdelin-ExtraLight Italic.otf') format('otf');
+    }
+    
+
+    @font-face {
+    font-family: 'Magdelin-Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Magdelin-Light'), url('Magdelin-Light.otf') format('otf');
+    }
+    
+
+    @font-face {
+    font-family: 'Magdelin-Light Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Magdelin-Light Italic'), url('Magdelin-Light Italic.otf') format('otf');
+    }
+    
+
+    @font-face {
+    font-family: 'Magdelin-Text';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Magdelin-Text'), url('Magdelin-Text.otf') format('otf');
+    }
+    
+
+    @font-face {
+    font-family: 'Magdelin-Text Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Magdelin-Text Italic'), url('Magdelin-Text Italic.otf') format('otf');
+    }
+    
+
+    @font-face {
+    font-family: 'Magdelin-Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Magdelin-Medium'), url('Magdelin-Medium.otf') format('otf');
+    }
+    
+
+    @font-face {
+    font-family: 'Magdelin-Medium Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Magdelin-Medium Italic'), url('Magdelin-Medium Italic.otf') format('otf');
+    }
+    
+
+    @font-face {
+    font-family: 'Magdelin-SemiBold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Magdelin-SemiBold'), url('Magdelin-SemiBold.otf') format('otf');
+    }
+    
+
+    @font-face {
+    font-family: 'Magdelin-SemiBold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Magdelin-SemiBold Italic'), url('Magdelin-SemiBold Italic.otf') format('otf');
+    }
+    
+
+    @font-face {
+    font-family: 'Magdelin-Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Magdelin-Bold'), url('Magdelin-Bold.otf') format('otf');
+    }
+    
+
+    @font-face {
+    font-family: 'Magdelin-Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Magdelin-Bold Italic'), url('Magdelin-Bold Italic.otf') format('otf');
+    }
+    
+
+    @font-face {
+    font-family: 'Magdelin-ExtraBold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Magdelin-ExtraBold'), url('Magdelin-ExtraBold.otf') format('otf');
+    }
+    
+
+    @font-face {
+    font-family: 'Magdelin-ExtraBold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Magdelin-ExtraBold Italic'), url('Magdelin-ExtraBold Italic.otf') format('otf');
+    }
+    
+
+    @font-face {
+    font-family: 'Magdelin-Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Magdelin-Black'), url('Magdelin-Black.otf') format('otf');
+    }
+    
+
+    @font-face {
+    font-family: 'Magdelin-Black Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Magdelin-Black Italic'), url('Magdelin-Black Italic.otf') format('otf');
+    }
