@@ -1,0 +1,74 @@
+body{
+    margin: 0%;
+    padding: 0;
+}
+
+
+.covering{
+    display: flex;
+    gap: 20px;
+    margin-left: 23px;
+}
+
+#wpforms-37{
+    padding: 50px;
+    background-color: #d6d6d6;
+}
+.post-content h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+.wpforms-submit-container{
+    text-align: center;
+}
+.entry-title{
+    text-align: center;
+    font-size: 45px;
+}
+figcaption{
+    text-align: center;
+}
+
+.wpforms-field {
+text-align: center;
+}
+.wpforms-field-container{
+    display: flex;
+    flex-direction: column;
+   
+}
+#wpforms-37-field_1-container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#wpforms-37-field_2-container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#wpforms-37-field_5-container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#wpforms-37-field_6-container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#wpforms-submit-37{
+    width: 200px;
+    border-radius: 30px;
+    background-color: rgb(74, 74, 74);
+    color: $color_white;
+}

@@ -1,0 +1,86 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: 10 April 2022 3:01 am
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.4.4
+WORDPRESS:	5.9.3
+PHP INFO:	7.4.28 | SAPI: litespeed
+SERVER:		LiteSpeed 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 4294967296 (1024M default) 
+MEMORY STACK: 18MB
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP(query limit - 100)
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported
+TABLES: total:22 | filtered:0 | create:22
+FILTERED: []
+SQL CREATED: 20211130_Kapilportfolio_569fd3628803e60a1459_20220410030042_database.sql
+SQL FILE SIZE: 1.06MB (1115606)
+SQL FILE TIME: 2022-04-10 03:01:15
+SQL RUNTIME: 0.67 sec.
+
+********************************************************************************
+ARCHIVE (ZIP):
+********************************************************************************
+ARCHIVE DIR:  /home/quarlruh/public_html/encodetechnologies/site/kt
+ARCHIVE FILE: 20211130_Kapilportfolio_569fd3628803e60a1459_20220410030042_archive.zip
+FILTERS: *OFF*
+DIRS:
+	not set
+FILES:
+	not set
+EXTS:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	152.06MB
+STATS:	Dirs 1,184 | Files 7,621
+SQL ADDED: 20211130_Kapilportfolio_569fd3628803e60a1459_20220410030042_database.sql
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 8805
+    [filename] => /home/quarlruh/public_html/encodetechnologies/site/kt/wp-content/backups-dup-lite/tmp/20211130_Kapilportfolio_569fd3628803e60a1459_20220410030042_archive.zip
+    [comment] => 
+)
+
+FILE ADDED TO ZIP: 8804
+COMPRESSION RESULT: '1'
+COMPRESSED SIZE: 71.28MB
+ARCHIVE RUNTIME: 13.48 sec.
+MEMORY STACK: 22MB
+building installer
+add_extra_files1
+add_extra_files2
+add_extra_files3
+add_extra_files4
+Doing archive file check
+add_extra_files5
+add_extra_files6
+add_extra_files8
+Successfully opened zip /home/quarlruh/public_html/encodetechnologies/site/kt/wp-content/backups-dup-lite/tmp/20211130_Kapilportfolio_569fd3628803e60a1459_20220410030042_archive.zip
+Adding enhanced installer files to archive using ZipArchive
+Installer files added to archive
+Added to archive
+After ziparchive close when adding installer
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 1.06MB
+INSTALLER FILE: 64.6KB
+ARCHIVE FILE: 72.33MB 
+EXPECTED FILE/DIRECTORY COUNT: 8,805
+ACTUAL FILE/DIRECTORY COUNT: 8,804
+ARCHIVE CONSISTENCY TEST: Pass
+
+********************************************************************************
+RECORD ID:[9]
+TOTAL PROCESS RUNTIME: 16.37 sec.
+PEAK PHP MEMORY USED: 24MB
+DONE PROCESSING => 20211130_Kapilportfolio 10 April 2022 3:01 am
+

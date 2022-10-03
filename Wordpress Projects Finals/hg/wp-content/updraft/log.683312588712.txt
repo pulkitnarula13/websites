@@ -1,0 +1,308 @@
+0000.001 (0) Opened log file at time: Sat, 09 Jul 2022 00:02:52 +0000 on http://himani.world
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.11 WP: 6.0 PHP: 7.4.30 (litespeed, Linux premium217.web-hosting.com 2.6.32-954.3.5.lve1.4.87.el6.x86_64 #1 SMP Fri Jan 28 05:34:34 EST 2022 x86_64) MySQL: 10.3.35-MariaDB-cll-lve (max packet size=268435456) WPLANG: en_CA Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 1024M (used: 11.5M | 14M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.024 (0) Free space on disk containing Updraft's temporary directory: 2429750.7 MB
+0000.027 (0) Deleting old log file: log.850ea09d8d93.txt
+0000.029 (0) Tasks: Backup files: 1 (schedule: monthly) Backup DB:  (schedule: monthly)
+0000.031 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.038 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1654730884, seconds_ago=2594088)
+0000.043 (0) Set semaphore last lock (fd) time to 2022-07-09 00:02:52
+0000.044 (0) Semaphore lock (fd) complete
+0000.049 (0) Backup run: resumption=0, nonce=683312588712, file_nonce=683312588712 begun at=1657324972 (0s ago), job type=backup
+0000.051 (0) Scheduling a resumption (1) after 300 seconds (1657325272) in case this run gets aborted
+0000.075 (0) Checking if we have a zip executable available
+0000.076 (0) Testing: /usr/bin/zip
+0000.085 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.087 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.088 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.089 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.091 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.095 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.097 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.113 (0) Working binary zip found: /usr/bin/zip
+0000.116 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.117 (0) Creation of backups of directories: beginning
+0000.121 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.908 (0) Total entities for the zip file: 729 directories, 4490 files (0 skipped as non-modified), 58.2 MB
+0000.912 (0) Zip: backup_2022-07-08-2002_Himani_Final_Project_683312588712-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.915 (0) Zip: backup_2022-07-08-2002_Himani_Final_Project_683312588712-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.918 (0) Zip: backup_2022-07-08-2002_Himani_Final_Project_683312588712-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.922 (0) Zip: backup_2022-07-08-2002_Himani_Final_Project_683312588712-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.925 (0) Zip: backup_2022-07-08-2002_Himani_Final_Project_683312588712-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.928 (0) Zip: backup_2022-07-08-2002_Himani_Final_Project_683312588712-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.931 (0) Zip: backup_2022-07-08-2002_Himani_Final_Project_683312588712-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.935 (0) Zip: backup_2022-07-08-2002_Himani_Final_Project_683312588712-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.938 (0) Zip: backup_2022-07-08-2002_Himani_Final_Project_683312588712-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.941 (0) Zip: backup_2022-07-08-2002_Himani_Final_Project_683312588712-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.943 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (9.8 MB, 4490 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0002.197 (0) backup_2022-07-08-2002_Himani_Final_Project_683312588712-plugins.zip.tmp: size is now: 4.60 MB
+0002.202 (0) Zip: backup_2022-07-08-2002_Himani_Final_Project_683312588712-plugins.zip.tmp: 1100 files added (on-disk size: 4720.1 KB)
+0002.206 (0) Zip: backup_2022-07-08-2002_Himani_Final_Project_683312588712-plugins.zip.tmp: 1200 files added (on-disk size: 4720.1 KB)
+0002.209 (0) Zip: backup_2022-07-08-2002_Himani_Final_Project_683312588712-plugins.zip.tmp: 1300 files added (on-disk size: 4720.1 KB)
+0002.214 (0) Zip: backup_2022-07-08-2002_Himani_Final_Project_683312588712-plugins.zip.tmp: 1400 files added (on-disk size: 4720.1 KB)
+0002.217 (0) Zip: backup_2022-07-08-2002_Himani_Final_Project_683312588712-plugins.zip.tmp: 1500 files added (on-disk size: 4720.1 KB)
+0002.219 (0) Zip: backup_2022-07-08-2002_Himani_Final_Project_683312588712-plugins.zip.tmp: 1600 files added (on-disk size: 4720.1 KB)
+0002.223 (0) Zip: backup_2022-07-08-2002_Himani_Final_Project_683312588712-plugins.zip.tmp: 1700 files added (on-disk size: 4720.1 KB)
+0002.225 (0) Zip: backup_2022-07-08-2002_Himani_Final_Project_683312588712-plugins.zip.tmp: 1800 files added (on-disk size: 4720.1 KB)
+0002.228 (0) Zip: backup_2022-07-08-2002_Himani_Final_Project_683312588712-plugins.zip.tmp: 1900 files added (on-disk size: 4720.1 KB)
+0002.231 (0) Zip: backup_2022-07-08-2002_Himani_Final_Project_683312588712-plugins.zip.tmp: 2000 files added (on-disk size: 4720.1 KB)
+0002.232 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (14.9 MB, 4490 files batched, 1001 (2002) added so far); re-opening (prior size: 4720.1 KB)
+0003.842 (0) backup_2022-07-08-2002_Himani_Final_Project_683312588712-plugins.zip.tmp: size is now: 10.50 MB
+0003.855 (0) Zip: backup_2022-07-08-2002_Himani_Final_Project_683312588712-plugins.zip.tmp: 2100 files added (on-disk size: 10730.7 KB)
+0003.859 (0) Zip: backup_2022-07-08-2002_Himani_Final_Project_683312588712-plugins.zip.tmp: 2200 files added (on-disk size: 10730.7 KB)
+0003.862 (0) Zip: backup_2022-07-08-2002_Himani_Final_Project_683312588712-plugins.zip.tmp: 2300 files added (on-disk size: 10730.7 KB)
+0003.867 (0) Zip: backup_2022-07-08-2002_Himani_Final_Project_683312588712-plugins.zip.tmp: 2400 files added (on-disk size: 10730.7 KB)
+0003.870 (0) Zip: backup_2022-07-08-2002_Himani_Final_Project_683312588712-plugins.zip.tmp: 2500 files added (on-disk size: 10730.7 KB)
+0003.874 (0) Zip: backup_2022-07-08-2002_Himani_Final_Project_683312588712-plugins.zip.tmp: 2600 files added (on-disk size: 10730.7 KB)
+0003.878 (0) Zip: backup_2022-07-08-2002_Himani_Final_Project_683312588712-plugins.zip.tmp: 2700 files added (on-disk size: 10730.7 KB)
+0003.881 (0) Zip: backup_2022-07-08-2002_Himani_Final_Project_683312588712-plugins.zip.tmp: 2800 files added (on-disk size: 10730.7 KB)
+0003.885 (0) Zip: backup_2022-07-08-2002_Himani_Final_Project_683312588712-plugins.zip.tmp: 2900 files added (on-disk size: 10730.7 KB)
+0003.889 (0) Zip: backup_2022-07-08-2002_Himani_Final_Project_683312588712-plugins.zip.tmp: 3000 files added (on-disk size: 10730.7 KB)
+0003.890 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (10 MB, 4490 files batched, 1001 (3003) added so far); re-opening (prior size: 10730.7 KB)
+0005.439 (0) backup_2022-07-08-2002_Himani_Final_Project_683312588712-plugins.zip.tmp: size is now: 13.60 MB
+0005.445 (0) Zip: backup_2022-07-08-2002_Himani_Final_Project_683312588712-plugins.zip.tmp: 3100 files added (on-disk size: 13918.9 KB)
+0005.448 (0) Zip: backup_2022-07-08-2002_Himani_Final_Project_683312588712-plugins.zip.tmp: 3200 files added (on-disk size: 13918.9 KB)
+0005.452 (0) Zip: backup_2022-07-08-2002_Himani_Final_Project_683312588712-plugins.zip.tmp: 3300 files added (on-disk size: 13918.9 KB)
+0005.455 (0) Zip: backup_2022-07-08-2002_Himani_Final_Project_683312588712-plugins.zip.tmp: 3400 files added (on-disk size: 13918.9 KB)
+0005.458 (0) Zip: backup_2022-07-08-2002_Himani_Final_Project_683312588712-plugins.zip.tmp: 3500 files added (on-disk size: 13918.9 KB)
+0005.462 (0) Zip: backup_2022-07-08-2002_Himani_Final_Project_683312588712-plugins.zip.tmp: 3600 files added (on-disk size: 13918.9 KB)
+0005.466 (0) Zip: backup_2022-07-08-2002_Himani_Final_Project_683312588712-plugins.zip.tmp: 3700 files added (on-disk size: 13918.9 KB)
+0005.471 (0) Zip: backup_2022-07-08-2002_Himani_Final_Project_683312588712-plugins.zip.tmp: 3800 files added (on-disk size: 13918.9 KB)
+0005.475 (0) Zip: backup_2022-07-08-2002_Himani_Final_Project_683312588712-plugins.zip.tmp: 3900 files added (on-disk size: 13918.9 KB)
+0005.479 (0) Zip: backup_2022-07-08-2002_Himani_Final_Project_683312588712-plugins.zip.tmp: 4000 files added (on-disk size: 13918.9 KB)
+0005.480 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (5.4 MB, 4490 files batched, 1001 (4004) added so far); re-opening (prior size: 13918.9 KB)
+0006.975 (0) Zip: backup_2022-07-08-2002_Himani_Final_Project_683312588712-plugins.zip.tmp: 4100 files added (on-disk size: 15722.7 KB)
+0006.980 (0) Zip: backup_2022-07-08-2002_Himani_Final_Project_683312588712-plugins.zip.tmp: 4200 files added (on-disk size: 15722.7 KB)
+0006.985 (0) Zip: backup_2022-07-08-2002_Himani_Final_Project_683312588712-plugins.zip.tmp: 4300 files added (on-disk size: 15722.7 KB)
+0006.987 (0) Zip: backup_2022-07-08-2002_Himani_Final_Project_683312588712-plugins.zip.tmp: 4400 files added (on-disk size: 15722.7 KB)
+0008.531 (0) backup_2022-07-08-2002_Himani_Final_Project_683312588712-plugins.zip.tmp: size is now: 20.40 MB
+0008.579 (0) Creating zip file manifest (/home/quarlruh/public_html/encodetechnologies/site/hg/wp-content/updraft/backup_2022-07-08-2002_Himani_Final_Project_683312588712-plugins.zip.list-temp.tmp)
+0008.941 (0) Successfully created zip file manifest (size: 362917)
+0009.130 (0) Created plugins zip (0) - 20905 KB in 9 s (2325.6 KB/s) (sha1: 03b48be0cbae1f25098ecddec61226288585ff8a, sha256: 1f5edad00b37599e39911bfd2abe134143e1d556e06072c85248dce6075c60bd)
+0009.134 (0) Beginning creation of dump of themes (split every: 400 MB)
+0009.232 (0) Total entities for the zip file: 84 directories, 466 files (0 skipped as non-modified), 10 MB
+0009.236 (0) Zip: backup_2022-07-08-2002_Himani_Final_Project_683312588712-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0009.239 (0) Zip: backup_2022-07-08-2002_Himani_Final_Project_683312588712-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0009.243 (0) Zip: backup_2022-07-08-2002_Himani_Final_Project_683312588712-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0009.246 (0) Zip: backup_2022-07-08-2002_Himani_Final_Project_683312588712-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0010.128 (0) backup_2022-07-08-2002_Himani_Final_Project_683312588712-themes.zip.tmp: size is now: 8.10 MB
+0010.139 (0) Creating zip file manifest (/home/quarlruh/public_html/encodetechnologies/site/hg/wp-content/updraft/backup_2022-07-08-2002_Himani_Final_Project_683312588712-themes.zip.list-temp.tmp)
+0010.213 (0) Successfully created zip file manifest (size: 31979)
+0010.292 (0) Created themes zip (0) - 8337.4 KB in 1.1 s (7321.7 KB/s) (sha1: b7841ed698f723b33ca54832fe8cef9b4a7841fe, sha256: feddf4d7602dd44028c1eb4c159505aa46741302922da0723a46a76685a645bb)
+0010.295 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0010.297 (0) Looking for candidates to backup in: /home/quarlruh/public_html/encodetechnologies/site/hg/wp-content/uploads
+0010.299 (0) finding files: 2022: adding to list (1)
+0010.301 (0) finding files: wpcf7_uploads: adding to list (2)
+0010.303 (0) finding files: wp-file-manager-pro: adding to list (3)
+0010.305 (0) finding files: .htaccess: adding to list (4)
+0010.308 (0) finding files: wpforms: adding to list (5)
+0010.310 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0010.363 (0) Total entities for the zip file: 11 directories, 59 files (0 skipped as non-modified), 1.6 MB
+0010.514 (0) backup_2022-07-08-2002_Himani_Final_Project_683312588712-uploads.zip.tmp: size is now: 1.30 MB
+0010.519 (0) Creating zip file manifest (/home/quarlruh/public_html/encodetechnologies/site/hg/wp-content/updraft/backup_2022-07-08-2002_Himani_Final_Project_683312588712-uploads.zip.list-temp.tmp)
+0010.521 (0) Successfully created zip file manifest (size: 2780)
+0010.540 (0) Created uploads zip (0) - 1377.9 KB in 0.2 s (6569.4 KB/s) (sha1: 41b547f6e14c606ed455830884805f2323218eed, sha256: 16272a4758f2fc248daa03511a47a2e12dff8d91fa697e7c2d4e17741535f3e2)
+0010.544 (0) Beginning backup of other directories found in the content directory (index: 0)
+0010.545 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0010.547 (0) Looking for candidates to backup in: /home/quarlruh/public_html/encodetechnologies/site/hg/wp-content
+0010.548 (0) finding files: plugins: skipping: this is the plugins directory
+0010.550 (0) finding files: languages: adding to list (1)
+0010.552 (0) finding files: updraft: skipping: this is the updraft directory
+0010.553 (0) finding files: index.php: adding to list (2)
+0010.554 (0) finding files: .htaccess: adding to list (3)
+0010.556 (0) finding files: uploads: skipping: this is the uploads directory
+0010.557 (0) finding files: upgrade: skipping: excluded by options
+0010.559 (0) finding files: themes: skipping: this is the themes directory
+0010.587 (0) Total entities for the zip file: 3 directories, 80 files (0 skipped as non-modified), 3.6 MB
+0010.811 (0) backup_2022-07-08-2002_Himani_Final_Project_683312588712-others.zip.tmp: size is now: 0.90 MB
+0010.816 (0) Creating zip file manifest (/home/quarlruh/public_html/encodetechnologies/site/hg/wp-content/updraft/backup_2022-07-08-2002_Himani_Final_Project_683312588712-others.zip.list-temp.tmp)
+0010.880 (0) Successfully created zip file manifest (size: 4611)
+0010.898 (0) Created others zip (0) - 905.8 KB in 0.3 s (2868.5 KB/s) (sha1: b68a655a7366fb31897a370ea33cbd8acdb8f8f2, sha256: b77e835a2692f709ac8bacf820afe29024299cb5ccae7a252261254f1e3ce4b6)
+0010.909 (0) Saving backup status to database (elements: 8)
+0010.913 (0) Beginning creation of database dump (WordPress DB)
+0010.915 (0) SQL compatibility mode is: NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0010.919 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0010.937 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1536 bytes total)
+0010.939 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0010.955 (0) Table wp_options: Total expected rows (via COUNT): 412
+0010.957 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.967 (0) Table wp_options: Rows added in this batch (next record: 5514): 408 (uncompressed bytes in this segment=110950) in 0.02 seconds
+0010.975 (0) Table wp_options: finishing file(s) (2, 23.1 KB)
+0010.981 (0) Table wp_users: Total expected rows (via COUNT): 3
+0010.982 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0010.986 (0) Table wp_users: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1630) in 0.01 seconds
+0010.990 (0) Table wp_users: finishing file(s) (2, 0.7 KB)
+0011.000 (0) Table wp_usermeta: Total expected rows (via COUNT): 53
+0011.002 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0011.007 (0) Table wp_usermeta: Rows added in this batch (next record: 54): 53 (uncompressed bytes in this segment=3469) in 0.01 seconds
+0011.013 (0) Table wp_usermeta: finishing file(s) (2, 1.4 KB)
+0011.021 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 16
+0011.023 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0011.028 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 91): 16 (uncompressed bytes in this segment=9377) in 0.01 seconds
+0011.035 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 1.3 KB)
+0011.040 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0011.045 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=626) in 0.01 seconds
+0011.050 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0011.056 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 2
+0011.057 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0011.062 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=706) in 0.01 seconds
+0011.067 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0011.074 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 42
+0011.076 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0011.081 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 144): 42 (uncompressed bytes in this segment=4353) in 0.01 seconds
+0011.086 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 0.9 KB)
+0011.095 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0011.098 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=696) in 0.01 seconds
+0011.105 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0011.111 (0) Table wp_comments: Total expected rows (via COUNT): 0
+0011.116 (0) Table wp_comments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1714) in 0.01 seconds
+0011.122 (0) Table wp_comments: finishing file(s) (2, 0.5 KB)
+0011.129 (0) Table wp_links: Total expected rows (via COUNT): 0
+0011.131 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1306) in 0.00 seconds
+0011.136 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0011.144 (0) Table wp_postmeta: Total expected rows (via COUNT): 128
+0011.146 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0011.152 (0) Table wp_postmeta: Rows added in this batch (next record: 294): 128 (uncompressed bytes in this segment=14634) in 0.01 seconds
+0011.159 (0) Table wp_postmeta: finishing file(s) (2, 2.4 KB)
+0011.167 (0) Table wp_posts: Total expected rows (via COUNT): 47
+0011.169 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0011.177 (0) Table wp_posts: Rows added in this batch (next record: 73): 47 (uncompressed bytes in this segment=50369) in 0.01 seconds
+0011.186 (0) Table wp_posts: finishing file(s) (2, 9.6 KB)
+0011.194 (0) Table wp_term_relationships: Total expected rows (approximate): 27
+0011.199 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 26 (uncompressed bytes in this segment=1018) in 0.01 seconds
+0011.206 (0) Table wp_term_relationships: finishing file(s) (2, 0.5 KB)
+0011.220 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 8
+0011.224 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0011.228 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 8): 8 (uncompressed bytes in this segment=1213) in 0.02 seconds
+0011.236 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0011.245 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0011.248 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=669) in 0.01 seconds
+0011.259 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0011.265 (0) Table wp_terms: Total expected rows (via COUNT): 8
+0011.268 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0011.272 (0) Table wp_terms: Rows added in this batch (next record: 8): 8 (uncompressed bytes in this segment=1003) in 0.01 seconds
+0011.279 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0011.288 (0) Table wp_litespeed_url: Total expected rows (via COUNT): 0
+0011.294 (0) Table wp_litespeed_url: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=627) in 0.01 seconds
+0011.303 (0) Table wp_litespeed_url: finishing file(s) (2, 0.4 KB)
+0011.323 (0) Table wp_litespeed_url_file: Total expected rows (via COUNT): 0
+0011.325 (0) Table wp_litespeed_url_file: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=963) in 0.00 seconds
+0011.333 (0) Table wp_litespeed_url_file: finishing file(s) (2, 0.5 KB)
+0011.343 (0) Table wp_wpfm_backup: Total expected rows (via COUNT): 0
+0011.345 (0) Table wp_wpfm_backup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=528) in 0.00 seconds
+0011.351 (0) Table wp_wpfm_backup: finishing file(s) (2, 0.3 KB)
+0011.361 (0) Table wp_wpforms_tasks_meta: Total expected rows (via COUNT): 9
+0011.363 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0011.366 (0) Table wp_wpforms_tasks_meta: Rows added in this batch (next record: 9): 9 (uncompressed bytes in this segment=1350) in 0.01 seconds
+0011.372 (0) Table wp_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0011.373 (0) backup_2022-07-08-2002_Himani_Final_Project_683312588712-db-table-wp_options.table.tmpr5515.gz (1/20/fopen): adding to final database dump
+0011.375 (0) backup_2022-07-08-2002_Himani_Final_Project_683312588712-db-table-wp_options.table.gz (2/20/fopen): adding to final database dump
+0011.376 (0) backup_2022-07-08-2002_Himani_Final_Project_683312588712-db-table-wp_users.table.tmpr4.gz (3/20/fopen): adding to final database dump
+0011.378 (0) backup_2022-07-08-2002_Himani_Final_Project_683312588712-db-table-wp_users.table.gz (4/20/fopen): adding to final database dump
+0011.379 (0) backup_2022-07-08-2002_Himani_Final_Project_683312588712-db-table-wp_usermeta.table.tmpr55.gz (5/20/fopen): adding to final database dump
+0011.382 (0) backup_2022-07-08-2002_Himani_Final_Project_683312588712-db-table-wp_usermeta.table.gz (6/20/fopen): adding to final database dump
+0011.384 (0) backup_2022-07-08-2002_Himani_Final_Project_683312588712-db-table-wp_actionscheduler_actions.table.tmpr92.gz (7/20/fopen): adding to final database dump
+0011.385 (0) backup_2022-07-08-2002_Himani_Final_Project_683312588712-db-table-wp_actionscheduler_actions.table.gz (8/20/fopen): adding to final database dump
+0011.389 (0) backup_2022-07-08-2002_Himani_Final_Project_683312588712-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/20/fopen): adding to final database dump
+0011.390 (0) backup_2022-07-08-2002_Himani_Final_Project_683312588712-db-table-wp_actionscheduler_claims.table.gz (10/20/fopen): adding to final database dump
+0011.392 (0) backup_2022-07-08-2002_Himani_Final_Project_683312588712-db-table-wp_actionscheduler_groups.table.tmpr3.gz (11/20/fopen): adding to final database dump
+0011.393 (0) backup_2022-07-08-2002_Himani_Final_Project_683312588712-db-table-wp_actionscheduler_groups.table.gz (12/20/fopen): adding to final database dump
+0011.395 (0) backup_2022-07-08-2002_Himani_Final_Project_683312588712-db-table-wp_actionscheduler_logs.table.tmpr145.gz (13/20/fopen): adding to final database dump
+0011.397 (0) backup_2022-07-08-2002_Himani_Final_Project_683312588712-db-table-wp_actionscheduler_logs.table.gz (14/20/fopen): adding to final database dump
+0011.399 (0) backup_2022-07-08-2002_Himani_Final_Project_683312588712-db-table-wp_commentmeta.table.tmpr0.gz (15/20/fopen): adding to final database dump
+0011.400 (0) backup_2022-07-08-2002_Himani_Final_Project_683312588712-db-table-wp_commentmeta.table.gz (16/20/fopen): adding to final database dump
+0011.401 (0) backup_2022-07-08-2002_Himani_Final_Project_683312588712-db-table-wp_comments.table.tmpr0.gz (17/20/fopen): adding to final database dump
+0011.403 (0) backup_2022-07-08-2002_Himani_Final_Project_683312588712-db-table-wp_comments.table.gz (18/20/fopen): adding to final database dump
+0011.404 (0) backup_2022-07-08-2002_Himani_Final_Project_683312588712-db-table-wp_links.table.tmpr0.gz (19/20/fopen): adding to final database dump
+0011.406 (0) backup_2022-07-08-2002_Himani_Final_Project_683312588712-db-table-wp_links.table.gz (20/20/fopen): adding to final database dump
+0011.407 (0) backup_2022-07-08-2002_Himani_Final_Project_683312588712-db-table-wp_postmeta.table.tmpr295.gz (21/20/fopen): adding to final database dump
+0011.408 (0) backup_2022-07-08-2002_Himani_Final_Project_683312588712-db-table-wp_postmeta.table.gz (22/20/fopen): adding to final database dump
+0011.410 (0) backup_2022-07-08-2002_Himani_Final_Project_683312588712-db-table-wp_posts.table.tmpr74.gz (23/20/fopen): adding to final database dump
+0011.411 (0) backup_2022-07-08-2002_Himani_Final_Project_683312588712-db-table-wp_posts.table.gz (24/20/fopen): adding to final database dump
+0011.413 (0) backup_2022-07-08-2002_Himani_Final_Project_683312588712-db-table-wp_term_relationships.table.tmpr100001.gz (25/20/fopen): adding to final database dump
+0011.415 (0) backup_2022-07-08-2002_Himani_Final_Project_683312588712-db-table-wp_term_relationships.table.gz (26/20/fopen): adding to final database dump
+0011.417 (0) backup_2022-07-08-2002_Himani_Final_Project_683312588712-db-table-wp_term_taxonomy.table.tmpr9.gz (27/20/fopen): adding to final database dump
+0011.418 (0) backup_2022-07-08-2002_Himani_Final_Project_683312588712-db-table-wp_term_taxonomy.table.gz (28/20/fopen): adding to final database dump
+0011.420 (0) backup_2022-07-08-2002_Himani_Final_Project_683312588712-db-table-wp_termmeta.table.tmpr0.gz (29/20/fopen): adding to final database dump
+0011.421 (0) backup_2022-07-08-2002_Himani_Final_Project_683312588712-db-table-wp_termmeta.table.gz (30/20/fopen): adding to final database dump
+0011.423 (0) backup_2022-07-08-2002_Himani_Final_Project_683312588712-db-table-wp_terms.table.tmpr9.gz (31/20/fopen): adding to final database dump
+0011.424 (0) backup_2022-07-08-2002_Himani_Final_Project_683312588712-db-table-wp_terms.table.gz (32/20/fopen): adding to final database dump
+0011.425 (0) backup_2022-07-08-2002_Himani_Final_Project_683312588712-db-table-wp_litespeed_url.table.tmpr0.gz (33/20/fopen): adding to final database dump
+0011.427 (0) backup_2022-07-08-2002_Himani_Final_Project_683312588712-db-table-wp_litespeed_url.table.gz (34/20/fopen): adding to final database dump
+0011.428 (0) backup_2022-07-08-2002_Himani_Final_Project_683312588712-db-table-wp_litespeed_url_file.table.tmpr0.gz (35/20/fopen): adding to final database dump
+0011.432 (0) backup_2022-07-08-2002_Himani_Final_Project_683312588712-db-table-wp_litespeed_url_file.table.gz (36/20/fopen): adding to final database dump
+0011.434 (0) backup_2022-07-08-2002_Himani_Final_Project_683312588712-db-table-wp_wpfm_backup.table.tmpr0.gz (37/20/fopen): adding to final database dump
+0011.435 (0) backup_2022-07-08-2002_Himani_Final_Project_683312588712-db-table-wp_wpfm_backup.table.gz (38/20/fopen): adding to final database dump
+0011.437 (0) backup_2022-07-08-2002_Himani_Final_Project_683312588712-db-table-wp_wpforms_tasks_meta.table.tmpr10.gz (39/20/fopen): adding to final database dump
+0011.439 (0) backup_2022-07-08-2002_Himani_Final_Project_683312588712-db-table-wp_wpforms_tasks_meta.table.gz (40/20/fopen): adding to final database dump
+0011.445 (0) backup_2022-07-08-2002_Himani_Final_Project_683312588712-db.gz: finished writing out complete database file (45.2 KB)
+0011.456 (0) Total database tables backed up: 20 (backup_2022-07-08-2002_Himani_Final_Project_683312588712-db.gz, size: 46427, sha1: aa9410d7b65878600914355fb58c9fbc693d9c89, sha256: aadcf0f4f1c831ba80d679fbc35ace1f85b5ad3836dcb0b2940bed4b5878983e)
+0011.481 (0) backup_2022-07-08-2002_Himani_Final_Project_683312588712-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0011.484 (0) backup_2022-07-08-2002_Himani_Final_Project_683312588712-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0011.485 (0) backup_2022-07-08-2002_Himani_Final_Project_683312588712-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0011.487 (0) backup_2022-07-08-2002_Himani_Final_Project_683312588712-others.zip: others: This file has not yet been successfully uploaded: will queue
+0011.489 (0) backup_2022-07-08-2002_Himani_Final_Project_683312588712-db.gz: db: This file has not yet been successfully uploaded: will queue
+0011.542 (0) Saving backup history. Total backup size: 30.8 MB
+0011.554 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0011.595 (0) Cloud backup selection (1/1): email with instance (1/1) (last)
+0011.597 (0) Beginning dispatch of backup to remote (email)
+0011.600 (0) [Warning] Email: backup_2022-07-08-2002_Himani_Final_Project_683312588712-plugins.zip: This backup archive is 20.4 MB in size - the attempt to send this via email is likely to fail (few email servers allow attachments of this size). If so, you should switch to using a different remote storage method.
+0011.605 (0) Email: backup_2022-07-08-2002_Himani_Final_Project_683312588712-plugins.zip: email to: hgupt...
+0030.957 (0) Recording as successfully uploaded: backup_2022-07-08-2002_Himani_Final_Project_683312588712-plugins.zip
+0030.962 (0) Deleting local file: backup_2022-07-08-2002_Himani_Final_Project_683312588712-plugins.zip: OK
+0030.964 (0) Deleting zip manifest (backup_2022-07-08-2002_Himani_Final_Project_683312588712-plugins.zip.list.tmp)
+0030.966 (0) Email: backup_2022-07-08-2002_Himani_Final_Project_683312588712-themes.zip: email to: hgupt...
+0038.385 (0) Recording as successfully uploaded: backup_2022-07-08-2002_Himani_Final_Project_683312588712-themes.zip
+0038.392 (0) Deleting local file: backup_2022-07-08-2002_Himani_Final_Project_683312588712-themes.zip: OK
+0038.395 (0) Deleting zip manifest (backup_2022-07-08-2002_Himani_Final_Project_683312588712-themes.zip.list.tmp)
+0038.397 (0) Email: backup_2022-07-08-2002_Himani_Final_Project_683312588712-uploads.zip: email to: hgupt...
+0039.716 (0) Recording as successfully uploaded: backup_2022-07-08-2002_Himani_Final_Project_683312588712-uploads.zip
+0039.722 (0) Deleting local file: backup_2022-07-08-2002_Himani_Final_Project_683312588712-uploads.zip: OK
+0039.723 (0) Deleting zip manifest (backup_2022-07-08-2002_Himani_Final_Project_683312588712-uploads.zip.list.tmp)
+0039.725 (0) Email: backup_2022-07-08-2002_Himani_Final_Project_683312588712-others.zip: email to: hgupt...
+0040.606 (0) Recording as successfully uploaded: backup_2022-07-08-2002_Himani_Final_Project_683312588712-others.zip
+0040.613 (0) Deleting local file: backup_2022-07-08-2002_Himani_Final_Project_683312588712-others.zip: OK
+0040.614 (0) Deleting zip manifest (backup_2022-07-08-2002_Himani_Final_Project_683312588712-others.zip.list.tmp)
+0040.616 (0) Email: backup_2022-07-08-2002_Himani_Final_Project_683312588712-db.gz: email to: hgupt...
+0040.753 (0) Recording as successfully uploaded: backup_2022-07-08-2002_Himani_Final_Project_683312588712-db.gz
+0040.756 (0) Deleting local file: backup_2022-07-08-2002_Himani_Final_Project_683312588712-db.gz: OK
+0040.764 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0040.766 (0) Number of backup sets in history: 3; groups (db): 1
+0040.767 (0) Examining (for databases) backup set with group_id=0, nonce=683312588712, datestamp=1657324972 (Jul 09 2022 00:02:52)
+0040.769 (0) This backup set is the backup set just made, so will not be deleted.
+0040.769 (0) Examining (for databases) backup set with group_id=0, nonce=87d51a9570d1, datestamp=1654730883 (Jun 08 2022 23:28:03)
+0040.769 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0040.770 (0) Examining (for databases) backup set with group_id=0, nonce=850ea09d8d93, datestamp=1652144403 (May 10 2022 01:00:03)
+0040.770 (0) 1652144403: db: this set includes a database (backup_2022-05-09-2100_Himani_Final_Project_850ea09d8d93-db.gz); db count is now 2
+0040.770 (0) 1652144403: db: over retain limit (2); will delete this database
+0040.770 (0) Delete file: backup_2022-05-09-2100_Himani_Final_Project_850ea09d8d93-db.gz, service=email
+0040.773 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0040.775 (0) Number of backup sets in history: 3; groups (files): 1
+0040.776 (0) Examining (for files) backup set with nonce=683312588712, datestamp=1657324972 (Jul 09 2022 00:02:52)
+0040.776 (0) This backup set is the backup set just made, so will not be deleted.
+0040.778 (0) This backup set is the backup set just made, so will not be deleted.
+0040.778 (0) This backup set is the backup set just made, so will not be deleted.
+0040.778 (0) This backup set is the backup set just made, so will not be deleted.
+0040.778 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0040.779 (0) Examining (for files) backup set with nonce=87d51a9570d1, datestamp=1654730883 (Jun 08 2022 23:28:03)
+0040.779 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0040.780 (0) Examining (for files) backup set with nonce=850ea09d8d93, datestamp=1652144403 (May 10 2022 01:00:03)
+0040.780 (0) plugins: over retain limit (2); will delete this file entity
+0040.780 (0) themes: over retain limit (2); will delete this file entity
+0040.780 (0) uploads: over retain limit (2); will delete this file entity
+0040.780 (0) others: over retain limit (2); will delete this file entity
+0040.780 (0) Delete file: backup_2022-05-09-2100_Himani_Final_Project_850ea09d8d93-plugins.zip, service=email
+0040.781 (0) Delete file: backup_2022-05-09-2100_Himani_Final_Project_850ea09d8d93-themes.zip, service=email
+0040.784 (0) Delete file: backup_2022-05-09-2100_Himani_Final_Project_850ea09d8d93-uploads.zip, service=email
+0040.785 (0) Delete file: backup_2022-05-09-2100_Himani_Final_Project_850ea09d8d93-others.zip, service=email
+0040.790 (0) This backup set is now empty; will remove from history
+0040.791 (0) Corresponding log file (log.850ea09d8d93.txt) not found - must have already been deleted
+0040.794 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0040.802 (0) Resume backup (683312588712, 0): finish run
+0040.809 (0) Decremented the semaphore (fd) by 1
+0040.814 (0) Semaphore (fd) unlocked
+0040.820 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0040.826 (0) The backup apparently succeeded and is now complete
+0040.827 (0) Fetching RSS news feed
+0041.228 (0) Fetched RSS news feed; result is a: SimplePie
+0041.264 (0) Sending email ('Files and database (Full backup)') report (attachments: 0, size: 0 KB) to: hgupt...
+0041.361 (0) The backup apparently succeeded and is now complete.

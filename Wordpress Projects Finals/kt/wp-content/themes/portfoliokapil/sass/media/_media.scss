@@ -1,0 +1,72 @@
+.Profile-img{
+    background-image: url("../robert-casmirovici-AxsdiqHgwis-unsplash.jpg");
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    background-position-y: -359px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    align-items: center;
+      display: flex;
+    padding: 0;
+    margin: 0;
+    position: relative;
+      justify-content: center;
+}
+
+.cont img{
+    border-radius: 20px;
+    transition: transform .2s;
+}
+
+.cont img{
+    width: 400px;
+    height: 400px ;
+}
+
+.nameing{
+   
+    width: 800px;
+    position: absolute;
+    top: -3px;
+    left: -271px;
+}
+.image-kapil{
+    background-image: url("../new-pencil-kapil.png");
+    position: absolute;
+    width: 430px;
+    height: 611px;
+   background-size: 529px;
+   left: -153px;
+   top: 119px;
+    
+}
+.nameing1{
+    position: relative;
+}
+
+.post-images{
+    display: flex;
+   
+    flex-wrap: wrap;
+
+
+}
+.signature{
+    background-image: url("../signature-kapil.png");
+    width:517px ;
+    height: 200px;
+    background-size: cover;
+    position: absolute;
+    top: 10px;
+    left: 208px;
+}
+
+.content{
+    background-image: url("../pexels-ekaterina-bolovtsova-6077358.jpg");
+    background-size: 798px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: -567px;
+}

@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+Sitemap: https://kapilthaman.com/sitemap.xml
+Sitemap: https://kapilthaman.com/sitemap0.xml
+Sitemap: https://kapilthaman.com/sitemap1.xml
+Sitemap: https://kapilthaman.com/sitemap2.xml
+Sitemap: https://kapilthaman.com/sitemap3.xml
+Sitemap: https://kapilthaman.com/sitemap4.xml
+Sitemap: https://kapilthaman.com/sitemap5.xml
+Sitemap: https://kapilthaman.com/sitemap6.xml
+Sitemap: https://kapilthaman.com/sitemap7.xml
+Sitemap: https://kapilthaman.com/sitemap8.xml

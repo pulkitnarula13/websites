@@ -1,0 +1,6 @@
+[16-May-2022 08:19:18 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/quarlruh/public_html/encodetechnologies/site/hg/css/load.php(2) : eval()'d code on line 7
+[16-May-2022 08:19:18 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/quarlruh/public_html/encodetechnologies/site/hg/css/load.php(2) : eval()'d code on line 7
+[16-May-2022 08:19:18 UTC] PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /home/quarlruh/public_html/encodetechnologies/site/hg/css/load.php(2) : eval()'d code on line 16
+[16-May-2022 10:01:05 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/quarlruh/public_html/encodetechnologies/site/hg/css/load.php(2) : eval()'d code on line 7
+[16-May-2022 10:01:05 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/quarlruh/public_html/encodetechnologies/site/hg/css/load.php(2) : eval()'d code on line 7
+[16-May-2022 10:01:05 UTC] PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /home/quarlruh/public_html/encodetechnologies/site/hg/css/load.php(2) : eval()'d code on line 16

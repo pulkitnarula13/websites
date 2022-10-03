@@ -1,0 +1,33 @@
+/*
+Theme Name: Theme Himani Gupta
+Author: Himani Gupta
+Description: Theme for final project.
+Version: 1.0
+License: GNU General Public License v2 or later
+Text Domain: final-hg
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+/* Variables =============================== */
+@import 'variables/variables';
+
+
+/*  RESET ====================== */
+@import 'reset/reset';
+
+/*  TYPOGRAPHY ================= */
+@import 'typography/typography';
+
+/*  Accessibility =============*/
+@import 'accessibility/accessibility';
+
+/*  LAYOUT ============================= */
+@import 'site-layout/site-layout';
+
+/*  NAVIGATION ========================= */
+@import 'navigation/navigation';
+
+/*  MEDIA ============================== */
+@import "media/media";

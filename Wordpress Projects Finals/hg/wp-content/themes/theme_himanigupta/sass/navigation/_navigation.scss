@@ -1,0 +1,14 @@
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    background-color: $color_header;
+}
+
+body {
+    background-color: $color_background;
+}
+
+.entry-title {
+    text-align: center;
+}

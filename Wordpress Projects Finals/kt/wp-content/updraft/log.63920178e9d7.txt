@@ -1,0 +1,470 @@
+0219.483 (1) Opened log file at time: Wed, 08 Jun 2022 23:02:16 +0000 on https://kapilthaman.com
+0219.486 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.11 WP: 6.0 PHP: 7.4.29 (litespeed, Linux premium217.web-hosting.com 2.6.32-954.3.5.lve1.4.87.el6.x86_64 #1 SMP Fri Jan 28 05:34:34 EST 2022 x86_64) MySQL: 10.3.34-MariaDB-cll-lve (max packet size=268435456) WPLANG: en_CA Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 1024M (used: 13M | 16M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0219.506 (1) Free space on disk containing Updraft's temporary directory: 2610628.4 MB
+0219.508 (1) Requesting backup semaphore lock (63920178e9d7)
+0219.511 (1) [Info] Lock (updraft_lock_bb9441912a10, wp_options) acquired
+0219.515 (1) Backup run: resumption=1, nonce=63920178e9d7, file_nonce=63920178e9d7 begun at=1654729116 (220s ago), job type=backup, previous check-in=20.34s
+0219.518 (1) Scheduling a resumption (2) after 300 seconds (1654729636) in case this run gets aborted
+0219.521 (1) Checking if we have a zip executable available
+0219.523 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+0219.524 (1) Creation of backups of directories: already finished
+0219.526 (1) Saving backup status to database (elements: 8)
+0219.530 (1) Database dump (WordPress DB): Creation was completed already
+0219.532 (1) SQL compatibility mode is: NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0219.535 (1) backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0219.536 (1) backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0219.538 (1) backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0219.539 (1) backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-others.zip: others: This file has not yet been successfully uploaded: will queue
+0219.541 (1) backup_2022-06-08-1858_PORTFOLIO_63920178e9d7-db.gz: db: This file is not ours to upload and has been/will be handled by another job.
+0219.542 (1) Saving backup history. Total backup size: Unknown
+0219.546 (1) Requesting upload of the files that have not yet been successfully uploaded (4)
+0219.549 (1) Cloud backup selection (1/1): email with instance (1/1) (last)
+0219.550 (1) Beginning dispatch of backup to remote (email)
+0219.552 (1) [Warning] Email: backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-plugins.zip: This backup archive is 21.2 MB in size - the attempt to send this via email is likely to fail (few email servers allow attachments of this size). If so, you should switch to using a different remote storage method.
+0219.553 (1) Email: backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-plugins.zip: email to: kapil...
+0221.643 (1) Email: Mails were not sent successfully
+0221.644 (1) Email: backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-themes.zip: email to: kapil...
+0224.398 (1) Email: Mails were not sent successfully
+0224.399 (1) [Warning] Email: backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-uploads.zip: This backup archive is 25.2 MB in size - the attempt to send this via email is likely to fail (few email servers allow attachments of this size). If so, you should switch to using a different remote storage method.
+0224.401 (1) Email: backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-uploads.zip: email to: kapil...
+0224.795 (1) Email: Mails were not sent successfully
+0224.797 (1) Email: backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-others.zip: email to: kapil...
+0225.469 (1) Email: Mails were not sent successfully
+0225.472 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0225.474 (1) Number of backup sets in history: 2; groups (db): 1
+0225.476 (1) Examining (for databases) backup set with group_id=0, nonce=63920178e9d7, datestamp=1654729116 (Jun 08 2022 22:58:36)
+0225.478 (1) This backup set is the backup set just made, so will not be deleted.
+0225.478 (1) Examining (for databases) backup set with group_id=0, nonce=818ce8185b86, datestamp=1652146372 (May 10 2022 01:32:52)
+0225.478 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0225.480 (1) Number of backup sets in history: 2; groups (files): 1
+0225.482 (1) Examining (for files) backup set with nonce=63920178e9d7, datestamp=1654729116 (Jun 08 2022 22:58:36)
+0225.482 (1) This backup set is the backup set just made, so will not be deleted.
+0225.483 (1) This backup set is the backup set just made, so will not be deleted.
+0225.483 (1) This backup set is the backup set just made, so will not be deleted.
+0225.483 (1) This backup set is the backup set just made, so will not be deleted.
+0225.483 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0225.485 (1) Examining (for files) backup set with nonce=818ce8185b86, datestamp=1652146372 (May 10 2022 01:32:52)
+0225.485 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0225.485 (1) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0225.489 (1) Resume backup (63920178e9d7, 1): finish run
+0225.494 (1) [Info] Lock option (updraft_lock_bb9441912a10, wp_options) released
+0225.497 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0225.501 (1) The backup has not finished; a resumption is scheduled.
+0615.707 (2) Opened log file at time: Wed, 08 Jun 2022 23:08:52 +0000 on https://kapilthaman.com
+0615.708 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.11 WP: 6.0 PHP: 7.4.29 (litespeed, Linux premium217.web-hosting.com 2.6.32-954.3.5.lve1.4.87.el6.x86_64 #1 SMP Fri Jan 28 05:34:34 EST 2022 x86_64) MySQL: 10.3.34-MariaDB-cll-lve (max packet size=268435456) WPLANG: en_CA Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 1024M (used: 13M | 16M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0615.734 (2) Free space on disk containing Updraft's temporary directory: 2610502.3 MB
+0615.736 (2) Requesting backup semaphore lock (63920178e9d7)
+0615.739 (2) [Info] Lock (updraft_lock_bb9441912a10, wp_options) acquired
+0615.743 (2) Backup run: resumption=2, nonce=63920178e9d7, file_nonce=63920178e9d7 begun at=1654729116 (616s ago), job type=backup
+0615.746 (2) Scheduling a resumption (3) after 300 seconds (1654730032) in case this run gets aborted
+0615.749 (2) Checking if we have a zip executable available
+0615.751 (2) Zip engine: found/will use a binary zip: /usr/bin/zip
+0615.752 (2) Creation of backups of directories: already finished
+0615.753 (2) Saving backup status to database (elements: 8)
+0615.757 (2) Database dump (WordPress DB): Creation was completed already
+0615.758 (2) SQL compatibility mode is: NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0615.762 (2) backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0615.764 (2) backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0615.765 (2) backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0615.766 (2) backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-others.zip: others: This file has not yet been successfully uploaded: will queue
+0615.769 (2) backup_2022-06-08-1858_PORTFOLIO_63920178e9d7-db.gz: db: This file is not ours to upload and has been/will be handled by another job.
+0615.772 (2) Saving backup history. Total backup size: Unknown
+0615.779 (2) Requesting upload of the files that have not yet been successfully uploaded (4)
+0615.783 (2) Cloud backup selection (1/1): email with instance (1/1) (last)
+0615.785 (2) Beginning dispatch of backup to remote (email)
+0615.787 (2) [Warning] Email: backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-plugins.zip: This backup archive is 21.2 MB in size - the attempt to send this via email is likely to fail (few email servers allow attachments of this size). If so, you should switch to using a different remote storage method.
+0615.788 (2) Email: backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-plugins.zip: email to: kapil...
+0617.401 (2) Email: Mails were not sent successfully
+0617.403 (2) Email: backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-themes.zip: email to: kapil...
+0618.825 (2) Email: Mails were not sent successfully
+0618.827 (2) [Warning] Email: backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-uploads.zip: This backup archive is 25.2 MB in size - the attempt to send this via email is likely to fail (few email servers allow attachments of this size). If so, you should switch to using a different remote storage method.
+0618.829 (2) Email: backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-uploads.zip: email to: kapil...
+0619.209 (2) Email: Mails were not sent successfully
+0619.210 (2) Email: backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-others.zip: email to: kapil...
+0619.708 (2) Email: Mails were not sent successfully
+0619.712 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0619.713 (2) Number of backup sets in history: 2; groups (db): 1
+0619.715 (2) Examining (for databases) backup set with group_id=0, nonce=63920178e9d7, datestamp=1654729116 (Jun 08 2022 22:58:36)
+0619.716 (2) This backup set is the backup set just made, so will not be deleted.
+0619.716 (2) Examining (for databases) backup set with group_id=0, nonce=818ce8185b86, datestamp=1652146372 (May 10 2022 01:32:52)
+0619.716 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0619.717 (2) Number of backup sets in history: 2; groups (files): 1
+0619.718 (2) Examining (for files) backup set with nonce=63920178e9d7, datestamp=1654729116 (Jun 08 2022 22:58:36)
+0619.718 (2) This backup set is the backup set just made, so will not be deleted.
+0619.720 (2) This backup set is the backup set just made, so will not be deleted.
+0619.720 (2) This backup set is the backup set just made, so will not be deleted.
+0619.720 (2) This backup set is the backup set just made, so will not be deleted.
+0619.720 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0619.722 (2) Examining (for files) backup set with nonce=818ce8185b86, datestamp=1652146372 (May 10 2022 01:32:52)
+0619.722 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0619.722 (2) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0619.726 (2) Resume backup (63920178e9d7, 2): finish run
+0619.729 (2) [Info] Lock option (updraft_lock_bb9441912a10, wp_options) released
+0619.731 (2) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0619.736 (2) The backup has not finished; a resumption is scheduled.
+1023.706 (3) Opened log file at time: Wed, 08 Jun 2022 23:15:40 +0000 on https://kapilthaman.com
+1023.708 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.11 WP: 6.0 PHP: 7.4.29 (litespeed, Linux premium217.web-hosting.com 2.6.32-954.3.5.lve1.4.87.el6.x86_64 #1 SMP Fri Jan 28 05:34:34 EST 2022 x86_64) MySQL: 10.3.34-MariaDB-cll-lve (max packet size=268435456) WPLANG: en_CA Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 1024M (used: 13M | 16M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+1023.729 (3) Free space on disk containing Updraft's temporary directory: 2610453.3 MB
+1023.731 (3) Requesting backup semaphore lock (63920178e9d7)
+1023.735 (3) [Info] Lock (updraft_lock_bb9441912a10, wp_options) acquired
+1023.738 (3) Backup run: resumption=3, nonce=63920178e9d7, file_nonce=63920178e9d7 begun at=1654729116 (1024s ago), job type=backup
+1023.741 (3) Scheduling a resumption (4) after 300 seconds (1654730440) in case this run gets aborted
+1023.744 (3) Checking if we have a zip executable available
+1023.745 (3) Zip engine: found/will use a binary zip: /usr/bin/zip
+1023.747 (3) Creation of backups of directories: already finished
+1023.749 (3) Saving backup status to database (elements: 8)
+1023.752 (3) Database dump (WordPress DB): Creation was completed already
+1023.754 (3) SQL compatibility mode is: NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+1023.757 (3) backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1023.758 (3) backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1023.759 (3) backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1023.760 (3) backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-others.zip: others: This file has not yet been successfully uploaded: will queue
+1023.762 (3) backup_2022-06-08-1858_PORTFOLIO_63920178e9d7-db.gz: db: This file is not ours to upload and has been/will be handled by another job.
+1023.763 (3) Saving backup history. Total backup size: Unknown
+1023.767 (3) Requesting upload of the files that have not yet been successfully uploaded (4)
+1023.769 (3) Cloud backup selection (1/1): email with instance (1/1) (last)
+1023.771 (3) Beginning dispatch of backup to remote (email)
+1023.772 (3) [Warning] Email: backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-plugins.zip: This backup archive is 21.2 MB in size - the attempt to send this via email is likely to fail (few email servers allow attachments of this size). If so, you should switch to using a different remote storage method.
+1023.773 (3) Email: backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-plugins.zip: email to: kapil...
+1025.677 (3) Email: Mails were not sent successfully
+1025.680 (3) Email: backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-themes.zip: email to: kapil...
+1027.380 (3) Email: Mails were not sent successfully
+1027.382 (3) [Warning] Email: backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-uploads.zip: This backup archive is 25.2 MB in size - the attempt to send this via email is likely to fail (few email servers allow attachments of this size). If so, you should switch to using a different remote storage method.
+1027.383 (3) Email: backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-uploads.zip: email to: kapil...
+1027.759 (3) Email: Mails were not sent successfully
+1027.761 (3) Email: backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-others.zip: email to: kapil...
+1028.370 (3) Email: Mails were not sent successfully
+1028.373 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1028.375 (3) Number of backup sets in history: 2; groups (db): 1
+1028.376 (3) Examining (for databases) backup set with group_id=0, nonce=63920178e9d7, datestamp=1654729116 (Jun 08 2022 22:58:36)
+1028.378 (3) This backup set is the backup set just made, so will not be deleted.
+1028.378 (3) Examining (for databases) backup set with group_id=0, nonce=818ce8185b86, datestamp=1652146372 (May 10 2022 01:32:52)
+1028.378 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1028.379 (3) Number of backup sets in history: 2; groups (files): 1
+1028.381 (3) Examining (for files) backup set with nonce=63920178e9d7, datestamp=1654729116 (Jun 08 2022 22:58:36)
+1028.381 (3) This backup set is the backup set just made, so will not be deleted.
+1028.382 (3) This backup set is the backup set just made, so will not be deleted.
+1028.383 (3) This backup set is the backup set just made, so will not be deleted.
+1028.383 (3) This backup set is the backup set just made, so will not be deleted.
+1028.383 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1028.384 (3) Examining (for files) backup set with nonce=818ce8185b86, datestamp=1652146372 (May 10 2022 01:32:52)
+1028.384 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1028.384 (3) Retain: saving new backup history (sets now: 2) and finishing retain operation
+1028.389 (3) Resume backup (63920178e9d7, 3): finish run
+1028.393 (3) [Info] Lock option (updraft_lock_bb9441912a10, wp_options) released
+1028.396 (3) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1028.400 (3) The backup has not finished; a resumption is scheduled.
+1431.130 (4) Opened log file at time: Wed, 08 Jun 2022 23:22:27 +0000 on https://kapilthaman.com
+1431.132 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.11 WP: 6.0 PHP: 7.4.29 (litespeed, Linux premium217.web-hosting.com 2.6.32-954.3.5.lve1.4.87.el6.x86_64 #1 SMP Fri Jan 28 05:34:34 EST 2022 x86_64) MySQL: 10.3.34-MariaDB-cll-lve (max packet size=268435456) WPLANG: en_CA Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 1024M (used: 13M | 16M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+1431.155 (4) Free space on disk containing Updraft's temporary directory: 2610407.4 MB
+1431.157 (4) Requesting backup semaphore lock (63920178e9d7)
+1431.160 (4) [Info] Lock (updraft_lock_bb9441912a10, wp_options) acquired
+1431.163 (4) Backup run: resumption=4, nonce=63920178e9d7, file_nonce=63920178e9d7 begun at=1654729116 (1431s ago), job type=backup
+1431.167 (4) Scheduling a resumption (5) after 300 seconds (1654730847) in case this run gets aborted
+1431.171 (4) Checking if we have a zip executable available
+1431.172 (4) Zip engine: found/will use a binary zip: /usr/bin/zip
+1431.174 (4) Creation of backups of directories: already finished
+1431.175 (4) Saving backup status to database (elements: 8)
+1431.181 (4) Database dump (WordPress DB): Creation was completed already
+1431.182 (4) SQL compatibility mode is: NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+1431.186 (4) backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1431.187 (4) backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1431.189 (4) backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1431.190 (4) backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-others.zip: others: This file has not yet been successfully uploaded: will queue
+1431.192 (4) backup_2022-06-08-1858_PORTFOLIO_63920178e9d7-db.gz: db: This file is not ours to upload and has been/will be handled by another job.
+1431.193 (4) Saving backup history. Total backup size: Unknown
+1431.198 (4) Requesting upload of the files that have not yet been successfully uploaded (4)
+1431.205 (4) Cloud backup selection (1/1): email with instance (1/1) (last)
+1431.206 (4) Beginning dispatch of backup to remote (email)
+1431.208 (4) [Warning] Email: backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-plugins.zip: This backup archive is 21.2 MB in size - the attempt to send this via email is likely to fail (few email servers allow attachments of this size). If so, you should switch to using a different remote storage method.
+1431.210 (4) Email: backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-plugins.zip: email to: kapil...
+1433.509 (4) Email: Mails were not sent successfully
+1433.511 (4) Email: backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-themes.zip: email to: kapil...
+1435.737 (4) Email: Mails were not sent successfully
+1435.739 (4) [Warning] Email: backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-uploads.zip: This backup archive is 25.2 MB in size - the attempt to send this via email is likely to fail (few email servers allow attachments of this size). If so, you should switch to using a different remote storage method.
+1435.741 (4) Email: backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-uploads.zip: email to: kapil...
+1436.117 (4) Email: Mails were not sent successfully
+1436.119 (4) Email: backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-others.zip: email to: kapil...
+1436.721 (4) Email: Mails were not sent successfully
+1436.725 (4) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1436.726 (4) Number of backup sets in history: 2; groups (db): 1
+1436.728 (4) Examining (for databases) backup set with group_id=0, nonce=63920178e9d7, datestamp=1654729116 (Jun 08 2022 22:58:36)
+1436.731 (4) This backup set is the backup set just made, so will not be deleted.
+1436.731 (4) Examining (for databases) backup set with group_id=0, nonce=818ce8185b86, datestamp=1652146372 (May 10 2022 01:32:52)
+1436.731 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1436.733 (4) Number of backup sets in history: 2; groups (files): 1
+1436.734 (4) Examining (for files) backup set with nonce=63920178e9d7, datestamp=1654729116 (Jun 08 2022 22:58:36)
+1436.734 (4) This backup set is the backup set just made, so will not be deleted.
+1436.736 (4) This backup set is the backup set just made, so will not be deleted.
+1436.736 (4) This backup set is the backup set just made, so will not be deleted.
+1436.736 (4) This backup set is the backup set just made, so will not be deleted.
+1436.736 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1436.738 (4) Examining (for files) backup set with nonce=818ce8185b86, datestamp=1652146372 (May 10 2022 01:32:52)
+1436.738 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1436.738 (4) Retain: saving new backup history (sets now: 2) and finishing retain operation
+1436.741 (4) Resume backup (63920178e9d7, 4): finish run
+1436.744 (4) [Info] Lock option (updraft_lock_bb9441912a10, wp_options) released
+1436.748 (4) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1436.751 (4) The backup has not finished; a resumption is scheduled.
+1838.265 (5) Opened log file at time: Wed, 08 Jun 2022 23:29:14 +0000 on https://kapilthaman.com
+1838.267 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.11 WP: 6.0 PHP: 7.4.29 (litespeed, Linux premium217.web-hosting.com 2.6.32-954.3.5.lve1.4.87.el6.x86_64 #1 SMP Fri Jan 28 05:34:34 EST 2022 x86_64) MySQL: 10.3.34-MariaDB-cll-lve (max packet size=268435456) WPLANG: en_CA Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 1024M (used: 13M | 16M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+1838.290 (5) Free space on disk containing Updraft's temporary directory: 2610334.5 MB
+1838.291 (5) Requesting backup semaphore lock (63920178e9d7)
+1838.294 (5) [Info] Lock (updraft_lock_bb9441912a10, wp_options) acquired
+1838.297 (5) Backup run: resumption=5, nonce=63920178e9d7, file_nonce=63920178e9d7 begun at=1654729116 (1838s ago), job type=backup
+1838.300 (5) Scheduling a resumption (6) after 300 seconds (1654731254) in case this run gets aborted
+1838.304 (5) Checking if we have a zip executable available
+1838.306 (5) Zip engine: found/will use a binary zip: /usr/bin/zip
+1838.307 (5) Creation of backups of directories: already finished
+1838.309 (5) Saving backup status to database (elements: 8)
+1838.313 (5) Database dump (WordPress DB): Creation was completed already
+1838.314 (5) SQL compatibility mode is: NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+1838.318 (5) backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1838.319 (5) backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1838.321 (5) backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1838.322 (5) backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-others.zip: others: This file has not yet been successfully uploaded: will queue
+1838.324 (5) backup_2022-06-08-1858_PORTFOLIO_63920178e9d7-db.gz: db: This file is not ours to upload and has been/will be handled by another job.
+1838.329 (5) Saving backup history. Total backup size: Unknown
+1838.332 (5) Requesting upload of the files that have not yet been successfully uploaded (4)
+1838.336 (5) Cloud backup selection (1/1): email with instance (1/1) (last)
+1838.337 (5) Beginning dispatch of backup to remote (email)
+1838.339 (5) [Warning] Email: backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-plugins.zip: This backup archive is 21.2 MB in size - the attempt to send this via email is likely to fail (few email servers allow attachments of this size). If so, you should switch to using a different remote storage method.
+1838.340 (5) Email: backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-plugins.zip: email to: kapil...
+1840.611 (5) Email: Mails were not sent successfully
+1840.612 (5) Email: backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-themes.zip: email to: kapil...
+1842.335 (5) Email: Mails were not sent successfully
+1842.338 (5) [Warning] Email: backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-uploads.zip: This backup archive is 25.2 MB in size - the attempt to send this via email is likely to fail (few email servers allow attachments of this size). If so, you should switch to using a different remote storage method.
+1842.339 (5) Email: backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-uploads.zip: email to: kapil...
+1842.725 (5) Email: Mails were not sent successfully
+1842.727 (5) Email: backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-others.zip: email to: kapil...
+1843.467 (5) Email: Mails were not sent successfully
+1843.476 (5) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1843.479 (5) Number of backup sets in history: 2; groups (db): 1
+1843.481 (5) Examining (for databases) backup set with group_id=0, nonce=63920178e9d7, datestamp=1654729116 (Jun 08 2022 22:58:36)
+1843.483 (5) This backup set is the backup set just made, so will not be deleted.
+1843.483 (5) Examining (for databases) backup set with group_id=0, nonce=818ce8185b86, datestamp=1652146372 (May 10 2022 01:32:52)
+1843.483 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1843.485 (5) Number of backup sets in history: 2; groups (files): 1
+1843.489 (5) Examining (for files) backup set with nonce=63920178e9d7, datestamp=1654729116 (Jun 08 2022 22:58:36)
+1843.489 (5) This backup set is the backup set just made, so will not be deleted.
+1843.491 (5) This backup set is the backup set just made, so will not be deleted.
+1843.491 (5) This backup set is the backup set just made, so will not be deleted.
+1843.491 (5) This backup set is the backup set just made, so will not be deleted.
+1843.491 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1843.492 (5) Examining (for files) backup set with nonce=818ce8185b86, datestamp=1652146372 (May 10 2022 01:32:52)
+1843.492 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1843.492 (5) Retain: saving new backup history (sets now: 2) and finishing retain operation
+1843.496 (5) Resume backup (63920178e9d7, 5): finish run
+1843.503 (5) [Info] Lock option (updraft_lock_bb9441912a10, wp_options) released
+1843.507 (5) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1843.510 (5) The backup has not finished; a resumption is scheduled.
+2246.925 (6) Opened log file at time: Wed, 08 Jun 2022 23:36:03 +0000 on https://kapilthaman.com
+2246.927 (6) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.11 WP: 6.0 PHP: 7.4.29 (litespeed, Linux premium217.web-hosting.com 2.6.32-954.3.5.lve1.4.87.el6.x86_64 #1 SMP Fri Jan 28 05:34:34 EST 2022 x86_64) MySQL: 10.3.34-MariaDB-cll-lve (max packet size=268435456) WPLANG: en_CA Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 1024M (used: 13M | 16M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+2246.954 (6) Free space on disk containing Updraft's temporary directory: 2610249.5 MB
+2246.960 (6) Requesting backup semaphore lock (63920178e9d7)
+2246.963 (6) [Info] Lock (updraft_lock_bb9441912a10, wp_options) acquired
+2246.967 (6) Backup run: resumption=6, nonce=63920178e9d7, file_nonce=63920178e9d7 begun at=1654729116 (2247s ago), job type=backup
+2246.973 (6) Scheduling a resumption (7) after 300 seconds (1654731663) in case this run gets aborted
+2246.978 (6) Checking if we have a zip executable available
+2246.979 (6) Zip engine: found/will use a binary zip: /usr/bin/zip
+2246.980 (6) Creation of backups of directories: already finished
+2246.982 (6) Saving backup status to database (elements: 8)
+2246.986 (6) Database dump (WordPress DB): Creation was completed already
+2246.987 (6) SQL compatibility mode is: NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+2246.991 (6) backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2246.993 (6) backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+2246.994 (6) backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2246.996 (6) backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-others.zip: others: This file has not yet been successfully uploaded: will queue
+2246.997 (6) backup_2022-06-08-1858_PORTFOLIO_63920178e9d7-db.gz: db: This file is not ours to upload and has been/will be handled by another job.
+2246.999 (6) Saving backup history. Total backup size: Unknown
+2247.003 (6) Requesting upload of the files that have not yet been successfully uploaded (4)
+2247.006 (6) Cloud backup selection (1/1): email with instance (1/1) (last)
+2247.008 (6) Beginning dispatch of backup to remote (email)
+2247.009 (6) [Warning] Email: backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-plugins.zip: This backup archive is 21.2 MB in size - the attempt to send this via email is likely to fail (few email servers allow attachments of this size). If so, you should switch to using a different remote storage method.
+2247.011 (6) Email: backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-plugins.zip: email to: kapil...
+2248.995 (6) Email: Mails were not sent successfully
+2248.997 (6) Email: backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-themes.zip: email to: kapil...
+2251.136 (6) Email: Mails were not sent successfully
+2251.138 (6) [Warning] Email: backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-uploads.zip: This backup archive is 25.2 MB in size - the attempt to send this via email is likely to fail (few email servers allow attachments of this size). If so, you should switch to using a different remote storage method.
+2251.140 (6) Email: backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-uploads.zip: email to: kapil...
+2251.584 (6) Email: Mails were not sent successfully
+2251.586 (6) Email: backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-others.zip: email to: kapil...
+2252.568 (6) Email: Mails were not sent successfully
+2252.572 (6) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+2252.575 (6) Number of backup sets in history: 2; groups (db): 1
+2252.576 (6) Examining (for databases) backup set with group_id=0, nonce=63920178e9d7, datestamp=1654729116 (Jun 08 2022 22:58:36)
+2252.578 (6) This backup set is the backup set just made, so will not be deleted.
+2252.578 (6) Examining (for databases) backup set with group_id=0, nonce=818ce8185b86, datestamp=1652146372 (May 10 2022 01:32:52)
+2252.578 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2252.579 (6) Number of backup sets in history: 2; groups (files): 1
+2252.581 (6) Examining (for files) backup set with nonce=63920178e9d7, datestamp=1654729116 (Jun 08 2022 22:58:36)
+2252.581 (6) This backup set is the backup set just made, so will not be deleted.
+2252.583 (6) This backup set is the backup set just made, so will not be deleted.
+2252.583 (6) This backup set is the backup set just made, so will not be deleted.
+2252.583 (6) This backup set is the backup set just made, so will not be deleted.
+2252.583 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2252.584 (6) Examining (for files) backup set with nonce=818ce8185b86, datestamp=1652146372 (May 10 2022 01:32:52)
+2252.584 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2252.584 (6) Retain: saving new backup history (sets now: 2) and finishing retain operation
+2252.589 (6) Resume backup (63920178e9d7, 6): finish run
+2252.592 (6) [Info] Lock option (updraft_lock_bb9441912a10, wp_options) released
+2252.595 (6) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2252.598 (6) The backup has not finished; a resumption is scheduled.
+2691.894 (7) Opened log file at time: Wed, 08 Jun 2022 23:43:28 +0000 on https://kapilthaman.com
+2691.897 (7) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.11 WP: 6.0 PHP: 7.4.29 (litespeed, Linux premium217.web-hosting.com 2.6.32-954.3.5.lve1.4.87.el6.x86_64 #1 SMP Fri Jan 28 05:34:34 EST 2022 x86_64) MySQL: 10.3.34-MariaDB-cll-lve (max packet size=268435456) WPLANG: en_CA Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 1024M (used: 13M | 16M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+2691.919 (7) Free space on disk containing Updraft's temporary directory: 2608917.2 MB
+2691.922 (7) Requesting backup semaphore lock (63920178e9d7)
+2691.927 (7) [Info] Lock (updraft_lock_bb9441912a10, wp_options) acquired
+2691.931 (7) Backup run: resumption=7, nonce=63920178e9d7, file_nonce=63920178e9d7 begun at=1654729116 (2692s ago), job type=backup
+2691.940 (7) Scheduling a resumption (8) after 300 seconds (1654732108) in case this run gets aborted
+2691.945 (7) Checking if we have a zip executable available
+2691.947 (7) Zip engine: found/will use a binary zip: /usr/bin/zip
+2691.949 (7) Creation of backups of directories: already finished
+2691.951 (7) Saving backup status to database (elements: 8)
+2691.955 (7) Database dump (WordPress DB): Creation was completed already
+2691.957 (7) SQL compatibility mode is: NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+2691.964 (7) backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2691.967 (7) backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+2691.970 (7) backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2691.974 (7) backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-others.zip: others: This file has not yet been successfully uploaded: will queue
+2691.976 (7) backup_2022-06-08-1858_PORTFOLIO_63920178e9d7-db.gz: db: This file is not ours to upload and has been/will be handled by another job.
+2691.978 (7) Saving backup history. Total backup size: Unknown
+2691.983 (7) Requesting upload of the files that have not yet been successfully uploaded (4)
+2691.989 (7) Cloud backup selection (1/1): email with instance (1/1) (last)
+2691.990 (7) Beginning dispatch of backup to remote (email)
+2691.994 (7) [Warning] Email: backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-plugins.zip: This backup archive is 21.2 MB in size - the attempt to send this via email is likely to fail (few email servers allow attachments of this size). If so, you should switch to using a different remote storage method.
+2691.997 (7) Email: backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-plugins.zip: email to: kapil...
+2694.128 (7) Email: Mails were not sent successfully
+2694.130 (7) Email: backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-themes.zip: email to: kapil...
+2696.169 (7) Email: Mails were not sent successfully
+2696.173 (7) [Warning] Email: backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-uploads.zip: This backup archive is 25.2 MB in size - the attempt to send this via email is likely to fail (few email servers allow attachments of this size). If so, you should switch to using a different remote storage method.
+2696.181 (7) Email: backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-uploads.zip: email to: kapil...
+2696.682 (7) Email: Mails were not sent successfully
+2696.684 (7) Email: backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-others.zip: email to: kapil...
+2697.579 (7) Email: Mails were not sent successfully
+2697.582 (7) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+2697.585 (7) Number of backup sets in history: 2; groups (db): 1
+2697.586 (7) Examining (for databases) backup set with group_id=0, nonce=63920178e9d7, datestamp=1654729116 (Jun 08 2022 22:58:36)
+2697.588 (7) This backup set is the backup set just made, so will not be deleted.
+2697.588 (7) Examining (for databases) backup set with group_id=0, nonce=818ce8185b86, datestamp=1652146372 (May 10 2022 01:32:52)
+2697.588 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2697.589 (7) Number of backup sets in history: 2; groups (files): 1
+2697.590 (7) Examining (for files) backup set with nonce=63920178e9d7, datestamp=1654729116 (Jun 08 2022 22:58:36)
+2697.590 (7) This backup set is the backup set just made, so will not be deleted.
+2697.592 (7) This backup set is the backup set just made, so will not be deleted.
+2697.592 (7) This backup set is the backup set just made, so will not be deleted.
+2697.592 (7) This backup set is the backup set just made, so will not be deleted.
+2697.592 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2697.594 (7) Examining (for files) backup set with nonce=818ce8185b86, datestamp=1652146372 (May 10 2022 01:32:52)
+2697.594 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2697.594 (7) Retain: saving new backup history (sets now: 2) and finishing retain operation
+2697.597 (7) Resume backup (63920178e9d7, 7): finish run
+2697.600 (7) [Info] Lock option (updraft_lock_bb9441912a10, wp_options) released
+2697.603 (7) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2697.607 (7) The backup has not finished; a resumption is scheduled.
+3649.110 (8) Opened log file at time: Wed, 08 Jun 2022 23:59:25 +0000 on https://kapilthaman.com
+3649.112 (8) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.11 WP: 6.0 PHP: 7.4.29 (litespeed, Linux premium217.web-hosting.com 2.6.32-954.3.5.lve1.4.87.el6.x86_64 #1 SMP Fri Jan 28 05:34:34 EST 2022 x86_64) MySQL: 10.3.34-MariaDB-cll-lve (max packet size=268435456) WPLANG: en_CA Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 1024M (used: 13M | 16M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+3649.133 (8) Free space on disk containing Updraft's temporary directory: 2609360.1 MB
+3649.135 (8) Requesting backup semaphore lock (63920178e9d7)
+3649.138 (8) [Info] Lock (updraft_lock_bb9441912a10, wp_options) acquired
+3649.142 (8) Backup run: resumption=8, nonce=63920178e9d7, file_nonce=63920178e9d7 begun at=1654729116 (3649s ago), job type=backup
+3649.146 (8) Scheduling a resumption (9) after 300 seconds (1654733065) in case this run gets aborted
+3649.149 (8) Checking if we have a zip executable available
+3649.150 (8) Zip engine: found/will use a binary zip: /usr/bin/zip
+3649.152 (8) Creation of backups of directories: already finished
+3649.155 (8) Saving backup status to database (elements: 8)
+3649.159 (8) Database dump (WordPress DB): Creation was completed already
+3649.161 (8) SQL compatibility mode is: NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+3649.164 (8) backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+3649.166 (8) backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+3649.168 (8) backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+3649.170 (8) backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-others.zip: others: This file has not yet been successfully uploaded: will queue
+3649.171 (8) backup_2022-06-08-1858_PORTFOLIO_63920178e9d7-db.gz: db: This file is not ours to upload and has been/will be handled by another job.
+3649.173 (8) Saving backup history. Total backup size: Unknown
+3649.177 (8) Requesting upload of the files that have not yet been successfully uploaded (4)
+3649.180 (8) Cloud backup selection (1/1): email with instance (1/1) (last)
+3649.181 (8) Beginning dispatch of backup to remote (email)
+3649.182 (8) [Warning] Email: backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-plugins.zip: This backup archive is 21.2 MB in size - the attempt to send this via email is likely to fail (few email servers allow attachments of this size). If so, you should switch to using a different remote storage method.
+3649.184 (8) Email: backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-plugins.zip: email to: kapil...
+3652.136 (8) Email: Mails were not sent successfully
+3652.138 (8) Email: backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-themes.zip: email to: kapil...
+3655.135 (8) Email: Mails were not sent successfully
+3655.137 (8) [Warning] Email: backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-uploads.zip: This backup archive is 25.2 MB in size - the attempt to send this via email is likely to fail (few email servers allow attachments of this size). If so, you should switch to using a different remote storage method.
+3655.139 (8) Email: backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-uploads.zip: email to: kapil...
+3655.606 (8) Email: Mails were not sent successfully
+3655.608 (8) Email: backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-others.zip: email to: kapil...
+3656.518 (8) Email: Mails were not sent successfully
+3656.521 (8) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+3656.523 (8) Number of backup sets in history: 2; groups (db): 1
+3656.525 (8) Examining (for databases) backup set with group_id=0, nonce=63920178e9d7, datestamp=1654729116 (Jun 08 2022 22:58:36)
+3656.526 (8) This backup set is the backup set just made, so will not be deleted.
+3656.526 (8) Examining (for databases) backup set with group_id=0, nonce=818ce8185b86, datestamp=1652146372 (May 10 2022 01:32:52)
+3656.526 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3656.527 (8) Number of backup sets in history: 2; groups (files): 1
+3656.529 (8) Examining (for files) backup set with nonce=63920178e9d7, datestamp=1654729116 (Jun 08 2022 22:58:36)
+3656.529 (8) This backup set is the backup set just made, so will not be deleted.
+3656.530 (8) This backup set is the backup set just made, so will not be deleted.
+3656.530 (8) This backup set is the backup set just made, so will not be deleted.
+3656.530 (8) This backup set is the backup set just made, so will not be deleted.
+3656.530 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3656.532 (8) Examining (for files) backup set with nonce=818ce8185b86, datestamp=1652146372 (May 10 2022 01:32:52)
+3656.532 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3656.532 (8) Retain: saving new backup history (sets now: 2) and finishing retain operation
+3656.537 (8) Resume backup (63920178e9d7, 8): finish run
+3656.541 (8) [Info] Lock option (updraft_lock_bb9441912a10, wp_options) released
+3656.544 (8) There were errors in the uploads, so the 'resume' event is remaining scheduled
+3656.547 (8) The backup has not finished; a resumption is scheduled.
+4126.744 (9) Opened log file at time: Thu, 09 Jun 2022 00:07:23 +0000 on https://kapilthaman.com
+4126.745 (9) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.11 WP: 6.0 PHP: 7.4.29 (litespeed, Linux premium217.web-hosting.com 2.6.32-954.3.5.lve1.4.87.el6.x86_64 #1 SMP Fri Jan 28 05:34:34 EST 2022 x86_64) MySQL: 10.3.34-MariaDB-cll-lve (max packet size=268435456) WPLANG: en_CA Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 1024M (used: 14.1M | 18M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+4126.775 (9) Free space on disk containing Updraft's temporary directory: 2609163 MB
+4126.778 (9) Requesting backup semaphore lock (63920178e9d7)
+4126.781 (9) [Info] Lock (updraft_lock_bb9441912a10, wp_options) acquired
+4126.784 (9) Backup run: resumption=9, nonce=63920178e9d7, file_nonce=63920178e9d7 begun at=1654729116 (4127s ago), job type=backup
+4126.788 (9) The current run is resumption number 9, and there was nothing useful done on the last run (last useful run: 0) - will not schedule a further attempt until we see something useful happening this time
+4126.793 (9) Scheduling a resumption (10) after 300 seconds (1654733543); but the job will then be aborted unless something happens this time
+4126.797 (9) Creation of backups of directories: already finished
+4126.799 (9) Saving backup status to database (elements: 8)
+4126.804 (9) Database dump (WordPress DB): Creation was completed already
+4126.806 (9) SQL compatibility mode is: NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+4126.818 (9) backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+4126.824 (9) backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+4126.826 (9) backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+4126.828 (9) backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-others.zip: others: This file has not yet been successfully uploaded: will queue
+4126.830 (9) backup_2022-06-08-1858_PORTFOLIO_63920178e9d7-db.gz: db: This file is not ours to upload and has been/will be handled by another job.
+4126.832 (9) Saving backup history. Total backup size: Unknown
+4126.838 (9) Requesting upload of the files that have not yet been successfully uploaded (4)
+4126.842 (9) Cloud backup selection (1/1): email with instance (1/1) (last)
+4126.844 (9) Beginning dispatch of backup to remote (email)
+4126.846 (9) [Warning] Email: backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-plugins.zip: This backup archive is 21.2 MB in size - the attempt to send this via email is likely to fail (few email servers allow attachments of this size). If so, you should switch to using a different remote storage method.
+4126.849 (9) Email: backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-plugins.zip: email to: kapil...
+4128.554 (9) Email: Mails were not sent successfully
+4128.556 (9) Email: backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-themes.zip: email to: kapil...
+4129.813 (9) Email: Mails were not sent successfully
+4129.815 (9) [Warning] Email: backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-uploads.zip: This backup archive is 25.2 MB in size - the attempt to send this via email is likely to fail (few email servers allow attachments of this size). If so, you should switch to using a different remote storage method.
+4129.817 (9) Email: backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-uploads.zip: email to: kapil...
+4130.225 (9) Email: Mails were not sent successfully
+4130.227 (9) Email: backup_2022-06-08-1858_PORTFOLIO_bb9441912a10-others.zip: email to: kapil...
+4130.642 (9) Email: Mails were not sent successfully
+4130.645 (9) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+4130.647 (9) Number of backup sets in history: 2; groups (db): 1
+4130.649 (9) Examining (for databases) backup set with group_id=0, nonce=63920178e9d7, datestamp=1654729116 (Jun 08 2022 22:58:36)
+4130.651 (9) This backup set is the backup set just made, so will not be deleted.
+4130.651 (9) Examining (for databases) backup set with group_id=0, nonce=818ce8185b86, datestamp=1652146372 (May 10 2022 01:32:52)
+4130.651 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+4130.652 (9) Number of backup sets in history: 2; groups (files): 1
+4130.655 (9) Examining (for files) backup set with nonce=63920178e9d7, datestamp=1654729116 (Jun 08 2022 22:58:36)
+4130.655 (9) This backup set is the backup set just made, so will not be deleted.
+4130.658 (9) This backup set is the backup set just made, so will not be deleted.
+4130.658 (9) This backup set is the backup set just made, so will not be deleted.
+4130.658 (9) This backup set is the backup set just made, so will not be deleted.
+4130.658 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+4130.660 (9) Examining (for files) backup set with nonce=818ce8185b86, datestamp=1652146372 (May 10 2022 01:32:52)
+4130.660 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+4130.660 (9) Retain: saving new backup history (sets now: 2) and finishing retain operation
+4130.665 (9) Resume backup (63920178e9d7, 9): finish run
+4130.668 (9) [Info] Lock option (updraft_lock_bb9441912a10, wp_options) released
+4130.671 (9) The resumption is being cancelled, as it was only scheduled to enable error reporting, which can be performed now
+4130.674 (9) Fetching RSS news feed
+4130.676 (9) Fetched RSS news feed; result is a: SimplePie
+4130.678 (9) Sending email ('Files and database (Full backup)') report (attachments: 1, size: 48 KB) to: kapil...
+4130.847 (9) The backup attempt has finished, apparently unsuccessfully
