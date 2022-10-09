@@ -2895,3 +2895,8 @@ a:hover {
 	color: #5a028f;
 	cursor: pointer;
 }
+
+
+#tasks_1 {
+	font-weight: 700;
+}
