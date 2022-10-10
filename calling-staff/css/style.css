@@ -2545,9 +2545,8 @@ body.dark .kura_tm_settings .cursor li .svg,
 .pricingButton {
 	display: block;
 	margin: 0 auto;
-	padding: 36px 45px;
-	font-size: larger ;
-	
+	padding: 6px 10px;
+	font-size: 13px ;
 
 }
 
@@ -2630,7 +2629,8 @@ body .container {
 	border-radius: 15px;
 	margin: 30px;
 	transition: 0.5s;
-    background: linear-gradient(0deg,#5a028f 10.5%,#d4005c 42.09%,#5a028f 91.36%);
+	text-align: center;
+    /* background: linear-gradient(0deg,#5a028f 10.5%,#d4005c 42.09%,#5a028f 91.36%); */
 
   }
 
@@ -2899,4 +2899,21 @@ a:hover {
 
 #tasks_1 {
 	font-weight: 700;
+}
+
+.card-body {
+	padding: 70px 0px;
+}
+.text-muted {
+	font-size: 170%;
+}
+
+.card-text {
+	padding-bottom: 30px;
+}
+
+.card-title {
+	padding-top: 30px;
+	font-size: 140%;
+	padding-bottom: 30px;
 }
