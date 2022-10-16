@@ -308,7 +308,7 @@ body.opened .kura_tm_topbar{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 30px 37px 30px 50px;
+	padding: 0px 37px 0px 50px;
 	
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
@@ -2383,8 +2383,8 @@ body.dark .kura_tm_settings .cursor li .svg,
 
 @media (max-width: 1400px) {
 	.container{max-width: 1170px;}
-	.kura_tm_topbar .topbar_inner{padding: 22px 37px 22px 50px;}
-	.kura_tm_topbar.animate .topbar_inner{padding: 18px 37px 18px 50px;}
+	.kura_tm_topbar .topbar_inner{padding: 0px 37px 0px 50px;}
+	.kura_tm_topbar.animate .topbar_inner{padding: 0px 37px 0px 50px;}
 	.kura_tm_hero .content .right .image{max-width: 80%;}
 	.kura_tm_hero .name{margin-bottom: 10px;}
 	.kura_tm_hero .job{font-size: 35px;margin-bottom: 20px;}
@@ -2545,8 +2545,9 @@ body.dark .kura_tm_settings .cursor li .svg,
 .pricingButton {
 	display: block;
 	margin: 0 auto;
-	padding: 6px 10px;
-	font-size: 13px ;
+	padding: 12px 12px;
+	font-size: 16px ;
+	cursor: pointer;
 
 }
 
@@ -2557,6 +2558,12 @@ body.dark .kura_tm_settings .cursor li .svg,
 .pricing-subText p{
 	padding-top: 50px;
 	font-size: 100%;
+}
+
+.pricing-list {
+	padding-left: 60px;
+    list-style: disc;
+	text-align: left;
 }
 
 /* Pricing ends */
@@ -2626,7 +2633,7 @@ body .container {
 	box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
 	  inset -5px -5px 15px rgba(255, 255, 255, 0.1),
 	  5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1);
-	border-radius: 15px;
+	border-radius: 50px;
 	margin: 30px;
 	transition: 0.5s;
 	text-align: center;
@@ -2766,7 +2773,7 @@ ul {
   
 li {
     font-weight: 300;
-    font-size: 13px;
+    font-size: 19px;
     color: black;
     letter-spacing: 0.03em;
 }
@@ -2882,7 +2889,7 @@ li a {
 		display: block;
 		margin: 0 auto;
 		padding: 20px 23px;
-		font-size: large;
+		font-size: 18px;
 	}
 
 } 
@@ -2902,7 +2909,7 @@ a:hover {
 }
 
 .card-body {
-	padding: 70px 0px;
+	padding: 50px 0px;
 }
 .text-muted {
 	font-size: 170%;
@@ -2913,7 +2920,7 @@ a:hover {
 }
 
 .card-title {
-	padding-top: 30px;
+	padding-top: 20px;
 	font-size: 140%;
-	padding-bottom: 30px;
+	padding-bottom: 20px;
 }
