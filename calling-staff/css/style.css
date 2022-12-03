@@ -317,7 +317,7 @@ body.opened .kura_tm_topbar{
 	        transition: all .3s ease;
 }
 .kura_tm_topbar.animate .topbar_inner{
-	padding: 20px 37px 20px 50px;
+	padding: 0px 37px 0px 50px;
 }
 .kura_tm_topbar .logo img{
 	max-width: 150px;
